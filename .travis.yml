@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: iju/OwykzEdPXa5+AclynHB9KJBZAaunJ9CrHMotrN9CRiUuFDckTcMIibXHSi50vcBSciSNBS7Ejp9Vei1zu4Hhq9wBFiAtz5TQCS7TXhFPfkQIBe6acXF9ODScgTBVv452pNLpcm7x1+FZYvQN5oWPw3BiQSdtIBUjXO3mb+tknbHYrOXHGue3eU8Qh0/bNNig+nnAkZoAwHc/CZvwgK5IcQKE0Sbul0Z1Ru1BR2Oj//Da5+tPATQhLqKAEt+A5FS6YzUf/Pe7IDsa0ea+99YY6sxaqWTFQJODzQcc8NWHDVh5UXNoVyKBAsfSAFFnp1RUFbn6sgsDIMsoaOP7vtlN0uwKvPrQbqTLsKp1Y3CLYdabfESLdUBnpa90rrIdiO91qTZfKX7r0O7ruMPjgV0AJWdvOtHvooBZj+OcYZv/5Uh/NJ0ToyIlVFs+5QHJm2Q8/rKfInDzT+v3x8wO4gWZRQhsOwap8avsR1YfY+z7tPchOtbD4zZ6O+Z/af9hPOiWRGXltED8ot50Ufm6ZH2cT3vhDXKEMbXzPJ6v+ha3lgQqIeChkjQP43PsMiTdBsBflwh60of/dEGOlRSezfuh8V/FAUVhaF1toc40iXC2D+BTvyR4og0+83IwySbT62/y+OcXpcz0LgzZbaeqGR9bNXtq2cqhpo8Hk3xyWLY=
+  app: https://stormy-shore-20789.herokuapp.com/ 
+  on:
+    repo: thinkful-ei17/jeff-sam-blog-api-testing
